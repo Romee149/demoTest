@@ -1,137 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-01T21:06:35 CDT" name="Default suite" finished-at="2020-04-01T21:06:39 CDT" duration-ms="3238">
+  <suite started-at="2020-04-02T19:44:38 CDT" name="Default suite" finished-at="2020-04-02T19:44:38 CDT" duration-ms="104">
     <groups>
     </groups>
-    <test started-at="2020-04-01T21:06:35 CDT" name="Default test" finished-at="2020-04-01T21:06:39 CDT" duration-ms="3238">
-      <class name="testscript.browserTest">
-        <test-method signature="luanchWeb()[pri:0, instance:testscript.browserTest@5fbe4146]" started-at="2020-04-01T21:06:35 CDT" name="luanchWeb" finished-at="2020-04-01T21:06:39 CDT" duration-ms="3182" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 78
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-ARO6JIC', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00CCA903+1550595]
-Ordinal0 [0x00C4A701+1025793]
-Ordinal0 [0x00BCC6E5+509669]
-Ordinal0 [0x00B5FC68+64616]
-Ordinal0 [0x00B5C594+50580]
-Ordinal0 [0x00B7ACE7+175335]
-Ordinal0 [0x00B7A8ED+174317]
-Ordinal0 [0x00B78CDB+167131]
-Ordinal0 [0x00B6144A+70730]
-Ordinal0 [0x00B624D0+74960]
-Ordinal0 [0x00B62469+74857]
-Ordinal0 [0x00C642C7+1131207]
-GetHandleVerifier [0x00D670FD+523789]
-GetHandleVerifier [0x00D66E90+523168]
-GetHandleVerifier [0x00D6E1E7+552695]
-GetHandleVerifier [0x00D678FA+525834]
-Ordinal0 [0x00C5B7FC+1095676]
-Ordinal0 [0x00C6633B+1139515]
-Ordinal0 [0x00C664A3+1139875]
-Ordinal0 [0x00C65425+1135653]
-BaseThreadInitThunk [0x75496359+25]
-RtlGetAppContainerNamedObjectPath [0x77407B74+228]
-RtlGetAppContainerNamedObjectPath [0x77407B44+180]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-ARO6JIC', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00CCA903+1550595]
-Ordinal0 [0x00C4A701+1025793]
-Ordinal0 [0x00BCC6E5+509669]
-Ordinal0 [0x00B5FC68+64616]
-Ordinal0 [0x00B5C594+50580]
-Ordinal0 [0x00B7ACE7+175335]
-Ordinal0 [0x00B7A8ED+174317]
-Ordinal0 [0x00B78CDB+167131]
-Ordinal0 [0x00B6144A+70730]
-Ordinal0 [0x00B624D0+74960]
-Ordinal0 [0x00B62469+74857]
-Ordinal0 [0x00C642C7+1131207]
-GetHandleVerifier [0x00D670FD+523789]
-GetHandleVerifier [0x00D66E90+523168]
-GetHandleVerifier [0x00D6E1E7+552695]
-GetHandleVerifier [0x00D678FA+525834]
-Ordinal0 [0x00C5B7FC+1095676]
-Ordinal0 [0x00C6633B+1139515]
-Ordinal0 [0x00C664A3+1139875]
-Ordinal0 [0x00C65425+1135653]
-BaseThreadInitThunk [0x75496359+25]
-RtlGetAppContainerNamedObjectPath [0x77407B74+228]
-RtlGetAppContainerNamedObjectPath [0x77407B44+180]
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at testscript.browserTest.luanchWeb(browserTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test started-at="2020-04-02T19:44:38 CDT" name="Default test" finished-at="2020-04-02T19:44:38 CDT" duration-ms="104">
+      <class name="testscript.gittest">
+        <test-method signature="test()[pri:0, instance:testscript.gittest@609cd4d8]" started-at="2020-04-02T19:44:38 CDT" name="test" finished-at="2020-04-02T19:44:38 CDT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- luanchWeb -->
-      </class> <!-- testscript.browserTest -->
+        </test-method> <!-- test -->
+      </class> <!-- testscript.gittest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
