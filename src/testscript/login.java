@@ -55,7 +55,7 @@ public static WebDriver driver;
 public static void teardown()
 
 {
-	//driver.close();
+	driver.close();
 	
 }
 
